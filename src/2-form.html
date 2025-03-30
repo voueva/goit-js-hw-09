@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/2-form.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+
+    <load src="./header.html" />
+
+    <div class="container">
+        <div class="form-container">
+            <form class="feedback-form" autocomplete="off">
+                <div class="feedback-form-fields">
+                    <div>
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" autofocus />
+                    </div>
+
+                    <div>
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="8"></textarea>
+                    </div>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/2-form.js"></script>
+</body>
+
+</html>
